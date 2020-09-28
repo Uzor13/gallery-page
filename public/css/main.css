@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 25px 0 25px;
+    height: 100vh;
+    width: 100%;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.profile img {
+    width: 156px;
+    height: 156px;
+    border-radius: 60px;
+}
+
+figcaption {
+    font-size: 1.7rem;
+    color: #4E5150;
+    padding-top: 10px;
+}
+
+small {
+    line-height: 24px;
+    color: #A9A9A9;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.card {
+    width: 100px;
+    height: 67px;
+    background: #E5E5E5;
+    border-radius: 16px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #4E5150;
+}
+
+.gallery {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.gallery1 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery1 img {
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+img[src='img/photo1.png'] {
+    width: 299px;
+    height: 299px;
+    margin-right: 20px;
+}
+
+img[src='img/photo2.png'] {
+    width: 629px;
+    height: 299px;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery2 img {
+    border-radius: 20px;
+}
+
+.inner-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-flex {
+    display: flex;
+}
+
+img[src='img/photo3.png'] {
+    width: 627px;
+    height: 299px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+img[src='img/photo5.png'] {
+    width: 299px;
+    height: 299px;
+    margin-right: 28px;
+}
+
+img[src='img/photo6.png'] {
+    width: 299px;
+    height: 299px;
+}
+
+img[src='img/photo4.png'] {
+    width: 297px;
+    height: 630px;
+}
+
+footer {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: #A9A9A9;
+}
+
+@media all and (max-width: 977px) {
+    .profile img {
+        width: 101px;
+        height: 101px;
+        border-radius: 38px;
+    }
+    img[src='img/photo1.png'] {
+        width: 109px;
+        height: 109px;
+        margin-right: 20px;
+    }
+
+    img[src='img/photo2.png'] {
+        width: 229px;
+        height: 109px;
+        margin-right: 20px;
+    }
+
+    img[src='img/photo3.png'] {
+        width: 229px;
+        height: 109px;
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+
+    img[src='img/photo4.png'] {
+        width: 108px;
+        height: 230px;
+        margin-right: 20px;
+    }
+
+    img[src='img/photo5.png'] {
+        width: 109px;
+        height: 109px;
+        margin-right: 20px;
+    }
+
+    img[src='img/photo6.png'] {
+        width: 109px;
+        height: 109px;
+        margin-right: 20px;
+    }
+    .gallery1 img {
+        margin-bottom: 10px;
+    }
+    .gallery {
+        margin-left: 10px;
+    }
+    figcaption {
+        font-size: 1.2rem;
+    }
+    .card {
+        width: 78px;
+        height: 52px;
+        font-size: 12px;
+    }
+}
